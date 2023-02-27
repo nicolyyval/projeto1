@@ -17,7 +17,7 @@ form {
 input {
     background-color: aqua;
     border: 5px double rgb(163, 68, 226);
-    outline: 0;
+    margin-top: 10px;
 }
 
 input:active {
@@ -28,4 +28,5 @@ input:hover {
 }
 input:focus {
     border: 5px dotted violet;
+    outline: 0;
 }
