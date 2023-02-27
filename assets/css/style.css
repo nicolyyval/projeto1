@@ -1,9 +1,31 @@
 body {
     background-color: mediumvioletred;
 }
+
 form {
     display: flex;
     flex-direction: column;
-    margin:auto;
-    width:50%;
+    margin: auto;
+    width: 50%;
+}
+
+#sub {
+    width: 25%;
+    margin: auto;
+    }
+
+input {
+    background-color: aqua;
+    border: 5px double rgb(163, 68, 226);
+    outline: 0;
+}
+
+input:active {
+    background-color:blueviolet;
+}
+input:hover {
+    background-color:blueviolet;
+}
+input:focus {
+    border: 5px dotted violet;
 }
